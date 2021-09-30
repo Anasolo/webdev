@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%22");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+  max-width: 1600px;
+}
+.first_section {
+  width: 100%;
+  display: block;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assets/bg-image.svg) center center/cover no-repeat;
+  height: 788px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 2;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 2;
+}
+.header-container {
+  margin: auto;
+  width: 600px;
+}
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.item-list {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Roboto";
+}
+.item:nth-child(1) a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.yourLife_block {
+  display: block;
+  margin-top: 252px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.getStarted_button {
+  background-color: #00afdb;
+  border: none;
+  color: white;
+  width: 184px;
+  height: 46px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.getStarted-button:hover {
+  background-color: #009cc2;
+}
+.icons {
+  margin-top: 198px;
+}
+.icons-list {
+  padding-left: 20px;
+}
+
+.rappresent_block {
+  height: 820px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 1370px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.left-container {
+  width: 407px;
+  height: 200px;
+  text-align: left;
+}
+
+.second-header {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 28.13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  margin-bottom: 20px;
+}
+
+.second-paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19.6px;
+  line-height: 140%;
+  color: #4e4e4e;
+  margin-bottom: 30px;
+}
+.right-container {
+  align-items: center;
+  margin-right: 269px;
+}
+.third-section {
+  height: 504px;
+  margin: auto;
+  width: 100%;
+  background-color: #f5f6f7;
+  align-items: center;
+}
+
+.community_block {
+  height: 504px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #f5f6f7;
+}
+.third-left {
+  width: 298px;
+  height: 200px;
+  text-align: center;
+  margin-left: 269px;
+}
+.community-header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #373737;
+  margin: 20px 0 10px;
+}
+.third-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.implement-block {
+  height: 820px;
+  background-color: #ffff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-left: 269px;
+}
+
+.fourth-right {
+  text-align: left;
+  width: 407px;
+  margin-left: 139px;
+  margin-right: 60px;
+}
+.signup_block {
+  width: 100%;
+  height: 524px;
+  margin: auto;
+  display: block;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assets/pexels-christina-morillo-1181675\ 1.png) center center/cover
+      no-repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 2;
+}
+
+.fifth-container {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.email-heading {
+  letter-spacing: 1px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.email-input {
+  width: 340px;
+  height: 46px;
+}
+
+input::placeholder {
+  color: #373737;
+  padding-left: 10px;
+  font-style: "Roboto";
+  border: 0px;
+}
+
+.ckeck-button {
+  background-color: #00afdb;
+  width: 66px;
+  height: 46px;
+  border: 0px;
+}
+.download_block {
+  height: 464px;
+  margin: auto;
+  width: 100%;
+  background-color: #f5f6f7;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+
+.sisxth-contaier {
+  text-align: center;
+  width: 480px;
+}
+
+.device-button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #00afdb;
+}
+
+.apple-logo {
+  width: 20px;
+  height: 20px;
+  background-color: #009cc2;
+  align-items: center;
+}
+
+.apple-logo {
+  width: 59px;
+  height: 46px;
+}
+
+.apple-image {
+  padding-top: 13px;
+}
+
+.apple-header {
+  font-size: 14px;
+  line-height: 16.5px;
+  text-align: center;
+  font-style: "Roboto";
+  color: #ffffff;
+  width: 127px;
+}
+
+.brand-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 415px;
+  align-items: center;
+  margin-left: 33px;
+}
+.footer-section {
+  width: 100%;
+  height: 185px;
+  background-color: #000000;
+}
+.footer-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+.footer-links {
+  color: #ffff;
+  display: flex;
+  list-style: none;
+}
+.footer-header {
+  color: #818181;
+  font-size: 14px;
+}
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.item:hover {
+  border-bottom: 1px solid #fff;
+  font-weight: 500;
+}
+.getStarted-button:hover {
+  background-color: #009cc2;
+}
+.device-button:hover {
+  background-color: #009cc2;
+}
+.footer-list-items {
+  padding-left: 15px;
+}
+.slider-nav {
+  float: right;
+  padding-top: 82px;
+  margin-bottom: 20px;
+  padding-right: 271px;
+}
